@@ -7,5 +7,4 @@
     * dateMin : c'est la date min
     * afficherInfo : prend deux valeurs (avec ou sans), permet d'afficher ou non les informations liées au job (ex: Url du job, n° dernier build, statut et la date/heure)
 
-![alt text](http://www.hostingpics.net/viewer.php?id=539419Capture.jpg "Paramétres")
-
+![alt tag](http://www.hostingpics.net/viewer.php?id=539419Capture.jpg "Paramétres")
