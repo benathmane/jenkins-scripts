@@ -23,7 +23,7 @@ jobs.each { j ->
 				  println j.fullName
 				} else if (afficherInfo == 'avec') {
 				  println 'JOB: ' + j.fullName
-				  println '  -> URL: YOUR-JENKINS-URL'+ j.fullName
+				  println '  -> URL: ' + j.getAbsoluteUrl()
 				  println '  -> lastbuild: ' + lastbuild.displayName + ' = ' + lastbuild.result + ', time: ' + lastbuild.getTime().format("YYYY-MM-dd HH:mm:ss")
 				  println '\n'
 				}
@@ -48,7 +48,7 @@ jobs.each { j ->
 				  println j.fullName
 				} else if (afficherInfo == 'avec') {
 				  println 'JOB: ' + j.fullName
-				  println '  -> URL: YOUR-JENKINS-URL'+ j.fullName
+				  println '  -> URL: ' + j.getAbsoluteUrl()
 				  println '  -> lastbuild: ' + lastbuild.displayName + ' = ' + lastbuild.result + ', time: ' + lastbuild.getTime().format("YYYY-MM-dd HH:mm:ss")
 				  println '\n'
 				}
