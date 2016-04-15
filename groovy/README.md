@@ -1,6 +1,6 @@
 # What is this?
 
-**JobsLastBuildDate** : est un script groovy permettant de lister les jobs qui ne sont pas lancés durant une période donnée
+**JobsLastBuildDate** : est un script groovy permettant de lister les jobs qui ne sont pas lancés durant une période donnée (ces jobs sont groupés par vue 'view' dans JobsLastBuildDateGroupbyView.groovy)
 * Paramétres :
     * tag : c'est le nom du slave où la recherche sera effectuée
     * dateMax : c'est la date max (ex: 2014-12-31 23:59:59)
